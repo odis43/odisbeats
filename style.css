@@ -6,6 +6,9 @@ nav ,row, footer{
 body{
     line-height: 1;
     margin: 0;
+    font-family: 'Archivo', sans-serif;
+    
+    
 }
 
 
@@ -16,7 +19,7 @@ body{
      margin: 0;
  }
  nav ul{
-     background-color:#eee ;
+     background-color:rgb(203, 228, 175) ;
      overflow: hidden;
      margin:0;
      padding: 0;
@@ -39,16 +42,89 @@ ul.topnav li a{
     text-align: center;
     padding: 14px;
     text-transform: uppercase;
-    color: #666666;
+    color: #0f0e0e;
 }
 
 ul.topnav li a:hover{
-    background-color: rgb(201, 201, 253);
-    color: rgba(34, 32, 32, 0.705);
+    background-color: rgb(47, 47, 70);
+    color: rgba(255, 255, 255, 0.705);
 }
 ul.topnav li.dropdownIcon{
     display: none;
 }
+
+
+
+/* custom */
+
+.colomn{
+    float: left;
+    width: 50%;
+    height: 35em;
+    display: block;
+    
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.colomn h1{
+   text-align: center;
+   font-family: 'Archivo', sans-serif;
+   font-size: 2.5em;
+  
+}   
+
+div.colomn img{
+    height: 35rem;
+    width:100%;
+  
+}
+
+#firstcol{
+   
+background-color: rgb(255, 255, 255);
+position: relative;
+
+}
+#child{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10%;
+    margin: auto;
+}
+/* second section */
+.container{
+    width: auto;
+    height:40rem;
+    display: block;
+    background: black;
+    position: relative;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+#kevin{
+    object-fit: cover;
+    opacity: 0.4;
+    height: 40rem;
+    width: 100%;
+}
+
+
+
+
+
 /* Mobile */
 @media screen and (max-width: 680px){
     ul.topnav li:not(:nth-child(1)){
@@ -75,51 +151,9 @@ ul.topnav.responsive li a{
     display: block;
     text-align:left;
 
+}   
+.colomn {
+    width: 100%;
 }
 
-}
-
-/* custom */
-
-.row::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-div.colomn{
-    float: left;
-    width: 50%;
-    display: table-;
-    margin: 0;
-    height: 35em;
-}
-
-div.colomn h1{
-   text-align: center;
-   font-family: 'Archivo', sans-serif;
-   font-size: 2.5em;
-  
-}
-#firstcol{
-   
-background-color: #ffffff;
-background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
-position: relative;
-
-}
-#child{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 10%;
-    margin: auto;
-}
-
-div.secondCol img{
-    height: 35rem;
-    width:100%;
-  
 }
