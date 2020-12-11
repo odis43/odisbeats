@@ -1,7 +1,5 @@
 body{
-    background: #232526;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: radial-gradient( circle 962px at 2.9% 6.8%,  rgba(221,221,221,1) 0%, rgba(202,222,229,1) 92.9% );
 
 }
 
@@ -12,9 +10,49 @@ background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, F
     grid-template-columns: auto auto auto;
   }
   
-  .gridsystem>iframe{
-      margin-left: 90px;
+  .gridsystem>div{
+      padding-top: 10%;
+      padding-bottom: 10%;
+       margin-left: auto;   
+       margin-right: auto;
       
   }
 
+  .iframerounded iframe{
+    border-radius: 30px; 
+    width: 350px; 
+    overflow: hidden;
+  }
+
+
+  @media screen and (max-width: 680px){
+    ul.topnav li:not(:nth-child(1)){
+        display:none;
+    }
+    ul.topnav li.dropdownIcon{
+        display:block;
+        float: right;
+    }
+
+    ul.topnav.responsive li.dropdownIcon{
+        position: absolute;
+        top:0;
+        right:0;
+    }
+ul.topnav.reponsive{
+    position: relative;
+}
+ul.topnav.responsive li{
+    display: inline;
+    float: none;
+}
+ul.topnav.responsive li a{
+    display: block;
+    text-align:left;
+
+}   
+
+
+
+  }
 

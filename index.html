@@ -4,86 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>odibeats</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="first.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
-<nav>
-    <ul class="topnav" id="dropdownClick">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="beats.html">Beats</a></li>
-        <li><a href="#origins">Origins</a></li>
-        <li class="topnav-right"><a href="#contact">Contact</a></li>
-        <li class="topnav-right"><a href="#list">Mailing List</a></li>
-        <li class="dropdownIcon"><a href="javascript:void(0);" onclick=" dropdownMenu()">&#9777;</a></li>
-        
-    </ul>
-</nav>
-<!-- FIRST SECTION -->
+<nav class="navbar navbar-expand-lg navbar-light"style = "background-color: #e3f2fd">
+    <div class="container-fluid">
 
-    <header class="row">   
-        <div class="colomn left odisbeats"  id="firstcol">
-            <h1>odibeats.</h1>
-            <ul>
-                <li>guitarist.</li>
-                <li>beatmaker.</li>
-            </ul>
-               
+      <a class="navbar-brand" href="index.html">
+        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-app-indicator" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"/>
+            <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+          </svg>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
             
-        </div>
-        <div class="colomn right">
-            <img src="https://i.pinimg.com/originals/96/18/6b/96186b308addc3c4700a26adb3aac278.gif" alt="logo" >
-        </div>
-    </header>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="beats.html">Beats</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Origins</a>
+          </li>          
+    </ul>
+    
+
+      </div>
+    </div> 
+  </nav>
+
+
+
+<!-- FIRST SECTION -->
+<header class="row">   
+    <div class="colomn left odisbeats"  id="firstcol">
+        <h1>odibeats.</h1>
+        <ul>
+            <li>guitarist.</li>
+            <li>beatmaker.</li>
+        </ul>
+           
+        
+    </div>
+    <div class="colomn right">
+        <img src="https://i.pinimg.com/originals/96/18/6b/96186b308addc3c4700a26adb3aac278.gif" alt="logo" >
+    </div>
+</header>
+    
   <!-- SECOND SECTION -->
 
     <div class="container"> 
         <img src="https://i.pinimg.com/originals/a0/9e/ee/a09eee222e704bd516b5962ce31a9bb9.jpg" alt="">
         <div class="containertext">
-            <h1>(Humble) beginnings</h1>
-                <p>I started playing the guitar at a relatively early age, gradually forming an attachement to music.  Jamming with my friends definitely fueled this lust but producing was never a definite interest up until 2 years ago.  <br><br>
+            <h1> <strong>(Humble) beginnings</strong></h1>
+                <p>I started playing the guitar at a relatively early age, gradually forming an attachement to music.         <br><br>
                 </p>
         </div>
 
         <div class="row contain">
             <div class="colomn garageband">
                 <h2>Garageband</h2>
-                    <p>First created beats on my phone out of bordem <br>when my family and I moved into our home.  There <br>was no wifi yet, so creating crappy beats was <br> my only form of entertainment.</p>
+                    <p>I First created beats on my phone out of bordem <br>when my family and I moved into our home.  There <br>was no wifi yet, so creating crappy beats was <br> my only form of entertainment.</p>
+            </div>
+
+            <div class="colomn guitar">
+                <h2>Guitar</h2>
+                <p>To tie it all together was the guitar. <br>  This instrument is so special to me.<br>
+                  I vividly remember jamming with my friends at our <br> lunch periods or even after school. 
+                  <br> This is one of those experience during our spring concert, mistakes and all: </p>
+
+                  <div class="iframerounded">
+                    <iframe width="400" height="200" src="https://www.youtube.com/embed/7yaD0MDVsek?start=148" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
             </div>
 
             <div class="colomn fl">
                 <h2>FL studio</h2>
-                <p>Once I realized how fun this was, I started <br>using FL 12 as my main music DAW.  There was such <br>a huge learning curve, I honestly didn't know where <br>to start.  But youtube got my back (like always).</p>
+                <p>Once I realized how fun this was, I started <br>using FL 12 as my main DAW.  There was such <br>a huge learning curve, I honestly didn't know where <br>to start.  But youtube got my back (like always).</p>
             </div>
+
+          
         </div>   
 
 
 
     </div >
 
+<!-- third section -->
+ <div class="thirdcontainer">
+<h1>yo</h1>
 
-    
-
-
-
-
-
-
+</div>
+     
 
 
-<script>
-    function dropdownMenu(){
-        var x= document.getElementById("dropdownClick");
-        if(x.className ==="topnav"){
-            x.className += " responsive";
-        }else{
-            x.className = "topnav";
-        }
-    }
-</script>
-    
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
 </body>
 
 
