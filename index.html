@@ -14,10 +14,13 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light"style = "background-color: #e3f2fd">
-    <div class="container-fluid">
+  
+  
 
-      <a class="navbar-brand" href="index.html">
+<nav class="navbar navbar-expand-lg navbar-light g-0"style = "background-color: #e3f2fd" id="navbar">
+  <div class="container-fluid">
+    
+      <a class="navbar-brand ms-3" href="index.html">
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-app-indicator" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"/>
             <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
@@ -27,53 +30,78 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-    
       
       <div class="collapse navbar-collapse" id="navbarNav">
-
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ms-2">
 
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="beats.html">Beats</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="#">Origins</a>
-          </li>          
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mailing List</a>
+          </li> 
+          
+        
     </ul>
-    
-
       </div>
-    </div> 
+    </div>
   </nav>
 
-
-
-<!-- FIRST SECTION -->
-<header class="row">   
-    <div class="colomn left odisbeats"  id="firstcol">
-        <h1>odibeats.</h1>
-        <ul>
-            <li>guitarist.</li>
-            <li>beatmaker.</li>
-        </ul>
-           
-        
+<div class="container-fluid vh-93">
+  <div class="row h-100">
+    <div class="col-lg-5 col-xs-7 d-flex align-items-center justify-content-center p-0">
+     <h1>Odibeats.</h1>
+     <div class="col-lg-5">
+       <ol>
+        <p class="ml11">
+          <span class="text-wrapper">
+            <span class="line line1"></span>
+            <span class="letters">Made with love.</span>
+          </span>
+        </p>
+       </ol>
+      
+   </div>
     </div>
-    <div class="colomn right">
-        <img src="https://i.pinimg.com/originals/96/18/6b/96186b308addc3c4700a26adb3aac278.gif" alt="logo" >
+    <div class="col-lg-7 col-xs-5 p-0">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="IMG_7592.JPG" class="img-fluid" alt="Responsive image">
+          </div>
+          <div class="carousel-item">
+            <img src="97540795-AABA-4904-ADBE-3030A405656B.jpg"  class="img-fluid" alt="Responsive image">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
     </div>
-</header>
     
+
+  </div>
+</div>
+    
+
   <!-- SECOND SECTION -->
 
-    <div class="container"> 
+    <!-- <div class="container"> 
         <img src="https://i.pinimg.com/originals/a0/9e/ee/a09eee222e704bd516b5962ce31a9bb9.jpg" alt="">
         <div class="containertext">
             <h1> <strong>(Humble) beginnings</strong></h1>
@@ -104,18 +132,13 @@
             </div>
 
           
-        </div>   
+        </div>    -->
 
 
 
     </div >
 
-<!-- third section -->
- <div class="thirdcontainer">
-<h1>yo</h1>
-
-</div>
-     
+ 
 
 
 
@@ -126,8 +149,48 @@
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
+    <script>
+      // Wrap every letter in a span
+var textWrapper = document.querySelector('.ml11 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: false})
+  .add({
+    targets:'.ml11 ',
+    scaleY: [0,1],
+    opacity: [0.5,1],
+    easing: "easeOutExpo",
+    duration: 700
+  })
+  .add({
+    targets: '.ml11 .line',
+    translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
+    easing: "easeOutExpo",
+    duration: 700,
+    delay: 100
+    
+  })
+  //targets letters 
+  .add({
+    targets: '.ml11 .letter',
+    opacity: [0,1],
+    easing: "easeOutExpo",
+    duration: 700,
+    offset: '-=775',
+    delay: (el, i) => 34 * (i+1)
+  })
+//looping mechanism
+  .add({
+    targets: '.ml11',
+    opacity: 1,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+    </script>
 </body>
 
 
