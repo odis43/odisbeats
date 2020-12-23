@@ -15,9 +15,8 @@
 
 <body>
   
-  
-
-<nav class="navbar navbar-expand-lg navbar-light g-0"style = "background-color: #e3f2fd" id="navbar">
+  <!-- nav bar -->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top g-0"style = "background-color: #e3f2fd" id="navbar">
   <div class="container-fluid">
     
       <a class="navbar-brand ms-3" href="index.html">
@@ -27,24 +26,26 @@
           </svg>
       </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler" type="button"class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-compact-down" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
+        </svg>
       </button>
       
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-2">
 
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="beats.html">Beats</a>
+            <a class="nav-link" href="#origins">Origins</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Origins</a>
+            <a class="nav-link" href="#beats">Beats</a>
           </li> 
           <li class="nav-item">
-            <a class="nav-link" href="#">Mailing List</a>
+            <a class="nav-link" href="#mail">Mailing List</a>
           </li> 
           
         
@@ -53,15 +54,24 @@
     </div>
   </nav>
 
-<div class="container-fluid vh-93">
-  <div class="row h-100">
-    <div class="col-lg-5 col-xs-7 d-flex align-items-center justify-content-center p-0">
-     <h1>Odibeats.</h1>
-     <div class="col-lg-5">
+  <!-- header -->
+  <div data-spy="scroll" data-target="navbar" data-offset="0">
+
+  
+<div class="container-fluid vh-93" id="home">
+  <div class="row">
+    <div class="col-sm-5 d-flex align-items-center justify-content-center p-0">
+      <h1 class="ml11">
+        <span class="text-wrapper">
+          <span class="line"></span>
+          <span class="letter">Odibeats.</span>
+        </span>
+      </h1>
+     <div class="col-md-5">
        <ol>
         <p class="ml11">
           <span class="text-wrapper">
-            <span class="line line1"></span>
+            <span class="line"></span>
             <span class="letters">Made with love.</span>
           </span>
         </p>
@@ -69,7 +79,7 @@
       
    </div>
     </div>
-    <div class="col-lg-7 col-xs-5 p-0">
+    <div class="col-sm-7 p-0">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">
           <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
@@ -97,100 +107,21 @@
 
   </div>
 </div>
-    
+</div>
 
-  <!-- SECOND SECTION -->
+<!-- second section -->
+<div class="container-fluid secondsection" id="origins">
+<h1>Origins</h1>
 
-    <!-- <div class="container"> 
-        <img src="https://i.pinimg.com/originals/a0/9e/ee/a09eee222e704bd516b5962ce31a9bb9.jpg" alt="">
-        <div class="containertext">
-            <h1> <strong>(Humble) beginnings</strong></h1>
-                <p>I started playing the guitar at a relatively early age, gradually forming an attachement to music.         <br><br>
-                </p>
-        </div>
-
-        <div class="row contain">
-            <div class="colomn garageband">
-                <h2>Garageband</h2>
-                    <p>I First created beats on my phone out of bordem <br>when my family and I moved into our home.  There <br>was no wifi yet, so creating crappy beats was <br> my only form of entertainment.</p>
-            </div>
-
-            <div class="colomn guitar">
-                <h2>Guitar</h2>
-                <p>To tie it all together was the guitar. <br>  This instrument is so special to me.<br>
-                  I vividly remember jamming with my friends at our <br> lunch periods or even after school. 
-                  <br> This is one of those experience during our spring concert, mistakes and all: </p>
-
-                  <div class="iframerounded">
-                    <iframe width="400" height="200" src="https://www.youtube.com/embed/7yaD0MDVsek?start=148" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
-            </div>
-
-            <div class="colomn fl">
-                <h2>FL studio</h2>
-                <p>Once I realized how fun this was, I started <br>using FL 12 as my main DAW.  There was such <br>a huge learning curve, I honestly didn't know where <br>to start.  But youtube got my back (like always).</p>
-            </div>
-
-          
-        </div>    -->
-
-
+</div>
 
     </div >
-
- 
-
-
-
-
-
-
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
-    <script>
-      // Wrap every letter in a span
-var textWrapper = document.querySelector('.ml11 .letters');
-textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
+<script src="index.js"></script>
 
-anime.timeline({loop: false})
-  .add({
-    targets:'.ml11 ',
-    scaleY: [0,1],
-    opacity: [0.5,1],
-    easing: "easeOutExpo",
-    duration: 700
-  })
-  .add({
-    targets: '.ml11 .line',
-    translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
-    easing: "easeOutExpo",
-    duration: 700,
-    delay: 100
-    
-  })
-  //targets letters 
-  .add({
-    targets: '.ml11 .letter',
-    opacity: [0,1],
-    easing: "easeOutExpo",
-    duration: 700,
-    offset: '-=775',
-    delay: (el, i) => 34 * (i+1)
-  })
-//looping mechanism
-  .add({
-    targets: '.ml11',
-    opacity: 1,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
-  });
-    </script>
 </body>
 
 
