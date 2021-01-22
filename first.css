@@ -1,17 +1,16 @@
-.body{
-  position: relative;
-}
+
 
 
 .navbar-light .navbar-nav .nav-link {
     color: rgb(0, 0, 0);
   }
 
+  
 
-  div.row{
-    background: #ECE9E6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #cce5e9); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF,    #cce5e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+  .first{
+    background-color:#BFE7FB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #BFE7FB); /* Chrome 10-25, Safari 5.1-6*/
+    background: linear-gradient(to right, #FFFFFF, #BFE7FB); 
   }
 
   .img-fluid{
@@ -29,9 +28,35 @@
 
 .container-fluid.secondsection{
   height: 43em;
-  padding-top: 20px;
-}
+  padding-top: 30px;
+  text-align: center;
   
- 
- 
+}
+
+.row.sectionsection{
+  padding-top: 3em;
+  color: #2F3540;
+}
+
+.third{
+  background-color:white;
+}
+
+.grid{
+  position: relative;
+  margin: 0 auto;
+  padding: 1em 0 1em;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+}
+
+
+
+#beats{
+  margin-top: 45px;
+}
+
+div.beatspage{
+  margin-top: 50px;
 }

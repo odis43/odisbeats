@@ -13,10 +13,13 @@
 
 </head>
 
-<body>
+<body style="background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #4286f4, #43734C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #4286f4, #43734C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+">
   
   <!-- nav bar -->
-<nav class="navbar navbar-expand-lg navbar-light sticky-top g-0"style = "background-color: #e3f2fd" id="navbar">
+<nav class="navbar navbar-expand-lg navbar-light sticky-top g-0"style = "background-color: #BFE7FB" id="navbar">
   <div class="container-fluid">
     
       <a class="navbar-brand ms-3" href="index.html">
@@ -42,10 +45,10 @@
             <a class="nav-link" href="#origins">Origins</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#beats">Beats</a>
+            <a class="nav-link" href="#thebeats">Beats</a>
           </li> 
           <li class="nav-item">
-            <a class="nav-link" href="#mail">Mailing List</a>
+            <a class="nav-link" href="#hi">Mailing List</a>
           </li> 
           
         
@@ -55,11 +58,11 @@
   </nav>
 
   <!-- header -->
-  <div data-spy="scroll" data-target="navbar" data-offset="0">
+  <div data-spy="scroll" data-target="navbar" data-offset="10">
 
   
 <div class="container-fluid vh-93" id="home">
-  <div class="row">
+  <div class="row first">
     <div class="col-sm-5 d-flex align-items-center justify-content-center p-0">
       <h1 class="ml11">
         <span class="text-wrapper">
@@ -110,12 +113,79 @@
 </div>
 
 <!-- second section -->
-<div class="container-fluid secondsection" id="origins">
+<div style="background-color: white !important;" class="container-fluid px-4 secondsection" id="origins">
 <h1>Origins</h1>
+  <div class="row gx-1">
+    <div class="col-sm-6 garage border gx-5">
+     <h3 class="p-3">Garageband</h3>
+    </div>
+    <div class="col-sm-6 fl border gx-5">
+      <h3 class="p-3">FL Studio</h3>
+    </div>
+  </div>
 
 </div>
 
-    </div >
+<!-- Third section -->
+
+<div id="thebeats" class="container third">
+<div class="row gx-2">
+  <h1 id="beats" style="text-align: center;">The beats.</h1>
+</div>
+
+<div class="row beatspage">
+
+  <div class="grid col-md-4 col-sm-6 col-xs-12" style="display: inline-block;">
+    <a target="_blank" href="#">
+      <figure>
+     
+      </figure>
+    </a>
+  </div>
+  <div class="grid col-md-4 col-sm-6 col-xs-12" style="display: inline-block;">
+    <a target="_blank" href="#">
+      <figure>
+        
+      </figure>
+    </a>
+  </div>
+  <div class="grid col-md-4 col-sm-6 col-xs-12" style="display: inline-block;">
+    <a target="_blank" href="#">
+      <figure>
+      </figure>
+    </a>
+  </div>
+  <div class="grid col-md-4 col-sm-6 col-xs-12" style="display: inline-block;">
+    <a target="_blank" href="#">
+      <figure>
+        
+      </figure>
+    </a>
+  </div>
+  <div class="grid col-md-4 col-sm-6 col-xs-12" style="display: inline-block;">
+    <a target="_blank" href="#">
+      <figure>
+       
+      </figure>
+    </a>
+  </div>
+  <div class="grid col-md-4 col-sm-6 col-xs-12" style="display: inline-block;">
+    <a target="_blank" href="#">
+      <figure>
+        
+      </figure>
+    </a>
+  </div>
+
+</div>
+
+
+
+ 
+</div>
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
