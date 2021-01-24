@@ -8,9 +8,8 @@
   
 
   .first{
-    background-color:#BFE7FB;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #BFE7FB); /* Chrome 10-25, Safari 5.1-6*/
-    background: linear-gradient(to right, #FFFFFF, #BFE7FB); 
+    
+    background-color: #CFF5F8;
   }
 
   .img-fluid{
@@ -18,45 +17,64 @@
     height: 93vh;
     width: 100%;
   }  
-  
-  @media only screen and (max-width: 576px) {
-    .col-sm-5{
-      height: 400px;
-    }
-    
-  }
 
-.container-fluid.secondsection{
-  height: 43em;
+/*second section */ 
+ 
+.origins{
+  padding-top: 25px ;
+}
+
+.originmainpadding{
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.originwritingpadding{
+  font-family: sans-serif;
+  font-size: 15px;
+  color: white;
+  padding-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+#origins{
+  background-color: #E2F7E3;
+}
+
+.originsheader{
   padding-top: 30px;
   text-align: center;
-  
 }
 
-.row.sectionsection{
-  padding-top: 3em;
-  color: #2F3540;
+div#colorbox.box{
+  background: #2F3540;
+  border-radius: 10px;
+  height: 400px;
 }
 
-.third{
-  background-color:white;
+div.row.origins{
+  padding-bottom: 150px;
 }
 
-.grid{
-  position: relative;
-  margin: 0 auto;
-  padding: 1em 0 1em;
-  max-width: 1000px;
-  list-style: none;
-  text-align: center;
+.col-xs-12{
+  padding-bottom: 20px;
+}
+/*second section */ 
+
+#beatsbox{
+  background:blanchedalmond;
+  border-radius: 10px;
+  height: 250px;
+  width: 250px;
 }
 
 
 
-#beats{
-  margin-top: 45px;
-}
 
-div.beatspage{
-  margin-top: 50px;
-}
+
+
+
+
